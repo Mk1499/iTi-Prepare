@@ -1,18 +1,18 @@
 <?php
 
 
-/*$dbname = "mailock";
+/* $dbname = "mailock";
 $host ="127.0.0.1"  ;
 $dbuser= "root";
-$dbpass = ""; 
+$dbpass = ""; */
 $dbname = 'mohamedkhaled14';
 $host ='mysql.aba.ae'  ;
 $dbuser= 'MK14';
-$dbpass = '2282391021mK14'; */
-$dbname = 'mailock';
+$dbpass = '2282391021mK14'; 
+/*$dbname = 'mailock';
 $host ='db4free.net'  ;
 $dbuser= 'mkhaled';
-$dbpass = '22823910mk14';
+$dbpass = '22823910mk14';*/
 $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
 
 // Check connection 
