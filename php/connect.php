@@ -1,7 +1,5 @@
 <?php
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
+
 
 /*$dbname = "mailock";
 $host ="127.0.0.1"  ;
