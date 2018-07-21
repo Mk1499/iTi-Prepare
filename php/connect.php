@@ -16,7 +16,7 @@ $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ;
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-$conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
+
 $sql1 = " CREATE TABLE if not exists Questions (
   
 ID int NOT NULL AUTO_INCREMENT ,  
