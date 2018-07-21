@@ -1,15 +1,15 @@
 <?php
 
 
-/* $dbname = "mailock";
-$host ="127.0.0.1"  ;
-$dbuser= "root";
-$dbpass = ""; */
+$dbname = "sql2248530";
+$host ="sql2.freemysqlhosting.net"  ;
+$dbuser= "sql2248530";
+$dbpass = "xI2!mA3*"; /*
 $dbname = 'mohamedkhaled14';
 $host ='mysql.aba.ae'  ;
 $dbuser= 'MK14';
 $dbpass = '2282391021mK14'; 
-/*$dbname = 'mailock';
+$dbname = 'mailock';
 $host ='db4free.net'  ;
 $dbuser= 'mkhaled';
 $dbpass = '22823910mk14';*/
