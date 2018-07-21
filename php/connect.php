@@ -14,7 +14,7 @@ $dbuser= 'MK14';
 $dbpass = '2282391021mK14';
 $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Connectioon failed: " . $conn->connect_error);
 } 
 
 $sql1 = " CREATE TABLE if not exists Questions (
