@@ -1,13 +1,21 @@
 <?php
 session_start() ;
-$dbname = 'iti';
+/*$dbname = 'iti';
 $host ='127.0.0.1'  ;
 $dbuser= 'root';
 $dbpass = ''; 
-/*$dbname = 'mailock';
+$dbname = 'mailock';
 $host ='db4free.net'  ;
 $dbuser= 'mkhaled';
 $dbpass = '22823910mk14'; */
+$dbname = 'mohamedkhaled14';
+$host ='mysql.aba.ae'  ;
+$dbuser= 'MK14';
+$dbpass = '2282391021mK14';
+$conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
 $conn = new mysqli($host , $dbuser , $dbpass , $dbname ) ; 
 $sql1 = " CREATE TABLE if not exists Questions (
   
